@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+  int i,j;
+  int size = 400;
+  int m[size][size];
+  for (i=0;i<size;i++)
+    {
+      for (j=0;j<size;i++)
+	{
+	  m[i][j]=i+j;
+	}
+    }
+  
+}

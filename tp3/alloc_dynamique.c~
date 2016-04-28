@@ -1,0 +1,10 @@
+#include <stdio.h>
+#define SIZE 10
+
+int main ()
+{
+  int *v;
+  v=malloc(SIZE*sizeof(int));
+  int **mat;
+  mat=malloc(SIZE*sizeof(int*));
+}
